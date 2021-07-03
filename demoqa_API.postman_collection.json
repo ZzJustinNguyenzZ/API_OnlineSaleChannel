@@ -296,14 +296,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{url}}/BookStore/v1/Book1",
+							"raw": "{{url}}/BookStore/v1/Book",
 							"host": [
 								"{{url}}"
 							],
 							"path": [
 								"BookStore",
 								"v1",
-								"Book1"
+								"Book"
 							],
 							"query": [
 								{
@@ -317,15 +317,6 @@
 					"response": []
 				}
 			]
-		},
-		{
-			"name": "New Request",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": null
-			},
-			"response": []
 		}
 	],
 	"event": [
